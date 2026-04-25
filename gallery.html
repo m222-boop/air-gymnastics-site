@@ -16,17 +16,20 @@
 <section>
     <h1>Галерея</h1>
 
-    <img src="https://via.placeholder.com/300" alt="фото">
-
-    <br><br>
+    <div class="gallery">
+        <img src="photo1.jpg">
+        <img src="photo2.jpg">
+        <img src="photo3.jpg">
+    </div>
 
     <button onclick="showText()">Натисни для мотивації</button>
     <p id="text"></p>
+
 </section>
 
 <script>
 function showText() {
-    document.getElementById("text").innerText = "Ніколи не здавайся ✨";
+    document.getElementById("text").innerText = "Іноді найскладніше — просто не здатися.";
 }
 </script>
 
