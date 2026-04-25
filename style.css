@@ -1,0 +1,43 @@
+body {
+    margin: 0;
+    font-family: Arial;
+    background: linear-gradient(to right, #1e1e2f, #3a3a5a);
+    color: white;
+    text-align: center;
+}
+
+nav {
+    background: rgba(0,0,0,0.5);
+    padding: 15px;
+}
+
+nav a {
+    color: white;
+    margin: 0 15px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav a:hover {
+    color: #ffcc70;
+}
+
+header {
+    padding: 50px;
+}
+
+section {
+    padding: 30px;
+}
+
+button {
+    padding: 10px 20px;
+    font-size: 16px;
+    background: #ffcc70;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    background: #ffaa00;
+}
