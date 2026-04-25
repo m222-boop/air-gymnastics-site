@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+<meta charset="UTF-8">
+<title>Галерея</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<nav>
+    <a href="index.html">Головна</a>
+    <a href="about.html">Про мене</a>
+    <a href="gallery.html">Галерея</a>
+</nav>
+
+<section>
+    <h1>Галерея</h1>
+
+    <img src="https://via.placeholder.com/300" alt="фото">
+
+    <br><br>
+
+    <button onclick="showText()">Натисни для мотивації</button>
+    <p id="text"></p>
+</section>
+
+<script>
+function showText() {
+    document.getElementById("text").innerText = "Ніколи не здавайся ✨";
+}
+</script>
+
+</body>
+</html>
